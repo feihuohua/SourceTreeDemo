@@ -7,10 +7,6 @@
 //
 
 #import "HomeVC.h"
-//#import "WHLog.h"
-//#import "WXApi.h"
-#import "AFNetworking.h"
-#import "WHObject.h"
 
 @interface HomeVC ()
 
@@ -24,7 +20,6 @@
     [self setupTitleView];
     
     [self setupMainView];
-    [WHObject log1:@"测试"];
 }
 
 - (void)didReceiveMemoryWarning {

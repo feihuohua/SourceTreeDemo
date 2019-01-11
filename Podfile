@@ -1,5 +1,4 @@
 source 'https://github.com/CocoaPods/Specs.git'
-source 'https://github.com/feihuohua/NCKSpecs.git'
 platform :ios, '8.0'
 use_frameworks!
 
@@ -13,7 +12,7 @@ target 'EnglishShow' do
 
   pod 'MJRefresh', '~> 3.1.12'
 
-#pod 'AFNetworking', '~> 3.1.0'
+ pod 'AFNetworking', '~> 3.1.0'
 
   pod 'SDWebImage', '~> 3.8'
 
@@ -28,11 +27,6 @@ target 'EnglishShow' do
   #pod 'YYText', '~> 1.0.7'
   
   pod 'CYLTabBarController', '~> 1.17.8'
-  
-  #pod 'WHLog', '~> 1.0.2'
-  
-  #pod 'NCKFoundation', '~> 0.2.0'
-  pod 'NCKFoundation/WHObject', '~> 0.3.0'
   
 
 
