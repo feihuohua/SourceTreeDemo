@@ -1,0 +1,6 @@
+framework module NCKFoundation {
+  umbrella header "NCKFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}
